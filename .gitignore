@@ -1,0 +1,7 @@
+.idea/
+.mvn/
+data/
+mvnw
+mvnw.cmd
+target/
+learning.elasticsearch.iml
