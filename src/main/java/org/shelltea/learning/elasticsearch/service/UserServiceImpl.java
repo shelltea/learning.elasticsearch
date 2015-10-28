@@ -1,10 +1,12 @@
 package org.shelltea.learning.elasticsearch.service;
 
 import org.shelltea.learning.elasticsearch.domain.User;
+import org.shelltea.learning.elasticsearch.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 /**
  * @author Xiong Shuhong(xiongsh@youyuan.com)
@@ -13,8 +15,11 @@ import java.util.List;
 @Component
 @Transactional
 public class UserServiceImpl implements UserService {
+    @Autowired
+    private UserRepository userRepository;
+
     @Override
-    public List<User> findAll() {
-        return null;
+    public Page<User> findAll(Pageable pageable) {
+        return userRepository.findAll(pageable);
     }
 }
