@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import java.io.Serializable;
 
 /**
- * @author Xiong Shuhong(xiongsh@youyuan.com)
+ * @author Xiong Shuhong(shelltea@gmail.com)
  *         Created on 2015/10/26.
  */
 @Entity

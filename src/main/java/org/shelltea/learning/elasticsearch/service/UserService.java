@@ -5,7 +5,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 /**
- * @author Xiong Shuhong(xiongsh@youyuan.com)
+ * @author Xiong Shuhong(shelltea@gmail.com)
  *         Created on 2015/10/26.
  */
 public interface UserService {

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @author Xiong Shuhong(xiongsh@youyuan.com)
+ * @author Xiong Shuhong(shelltea@gmail.com)
  *         Created on 2015/10/26.
  */
 @Component
